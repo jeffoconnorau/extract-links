@@ -1,4 +1,4 @@
-# Link Extractor
+# Link Extractor for help with explicit URL inference for AI bots or AI agents.
 
 A simple Python script to extract and deduplicate hyperlinks from any given webpage. 
 
@@ -58,7 +58,7 @@ python3 extract_links.py --u https://example.com/ --a
 python3 extract_links.py --u https://example.com/ --o my_custom_links.txt
 ```
 
-## output
+## Output
 
 Based on your options, the script generates either a plain text file or a CSV file.
 
