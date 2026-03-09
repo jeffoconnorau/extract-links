@@ -15,7 +15,7 @@ python3 -m pip install requests beautifulsoup4
 
 ## Usage
 
-Run the script from your terminal and provide the target URL. By default, it will only extract links that belong to the exact same path (directory) as the source URL.
+Run the script from your terminal and provide the target URL. **By default, it acts as a Web Crawler**, fetching the given page *and* recursively crawling any subdirectories it finds to extract every possible link from that section of the site.
 
 ```bash
 python3 extract_links.py --url https://example.com/docs/
